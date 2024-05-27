@@ -11,8 +11,8 @@ export function Naviation() {
 
   const links = [
     { name: "Work", route: "work" },
-    { name: "Play", route: "play" },
-    { name: "Writing", route: "writing" },
+    // { name: "Play", route: "play" },
+    // { name: "Writing", route: "writing" },
     { name: "About", route: "about" },
   ];
 

@@ -94,8 +94,8 @@ export function Fortune() {
           </div>
         </div>
         <div className="fortune-problem">
-          <div className="problem-button">Problem</div>
-          <div className="problem-description flex flex-row">
+          <div className="problem-button">Coming soon...</div>
+          {/* <div className="problem-description flex flex-row">
             <p>
               Everyday, over a million people visit Fortune.com to discover the
               latest news in business. The digital experience is essential in
@@ -105,7 +105,7 @@ export function Fortune() {
               representative of all of Fortune's features.
             </p>
             <video></video>
-          </div>
+          </div> */}
         </div>
 
         {/* <div className="project-page-learned flex flex-row">
