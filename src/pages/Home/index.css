@@ -1,0 +1,153 @@
+:root {
+  --home-items-height: calc(100vh - 80px); /* Adjust the value as needed */
+  --slider-height: calc(100vh - (0.6 * 100vh));
+}
+
+.home-items {
+  margin-left: 0;
+  margin-right: auto;
+  align-items: start;
+  background-color: #f2f2f2;
+  width: 80%;
+  display: flex;
+}
+.title {
+  font-family: "Salvatore Book";
+  font-weight: 500;
+  letter-spacing: 2.8px;
+  font-size: 3em;
+  margin-top: 15rem;
+  margin-left: 14%;
+  margin-right: 100px;
+  color: #141414;
+}
+
+.introduction {
+  font-family: "Helvetica Now Micro";
+  font-weight: normal;
+  font-size: 0.9em;
+  margin-left: 14%;
+  margin-top: 10px;
+  color: #141414;
+}
+
+.currently {
+  padding-top: 9em;
+  color: #3f3f3f;
+  gap: 1.3em;
+}
+.currently-title {
+  font-family: "Salvatore Book";
+  font-weight: bold;
+  width: 15em;
+}
+
+.currently-body {
+  width: 100%;
+  font-size: 0.9em;
+}
+
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+  margin-top: var(--slider-height);
+  color: black;
+}
+
+.icon-scroll {
+  width: 25px;
+  height: 50px;
+  margin-left: -20px;
+  top: 48%;
+  box-shadow: inset 0 0 0 2px black;
+  border-radius: 25px;
+  display: flex;
+  transition: opacity 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.icon-scroll:before {
+  margin-top: 8px;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: black;
+  margin-left: -3px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+  color: black;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+}
+
+/* .project-list {
+  padding-left: 3rem;
+} */
+
+/* Styles for desktop */
+
+@media (min-width: 1200px) {
+  .currently {
+    margin-bottom: 15rem;
+  }
+}
+
+/* Styles for tablet */
+@media (max-width: 1200px) {
+  .content-grid {
+    width: 92%;
+    height: auto;
+    perspective: 5000px;
+    flex: 0 auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+    align-content: stretch;
+    justify-content: stretch;
+    align-items: center;
+    transform: none;
+  }
+  .currently {
+    margin-bottom: 15rem;
+  }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+  .title {
+    font-family: "Salvatore Book";
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 2.8px;
+    font-size: 2em;
+    margin-top: 200px;
+    margin-left: 30px;
+  }
+
+  .introduction {
+    font-family: "Helvetica Now Micro";
+    font-weight: normal;
+    font-size: 0.8em;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  .currently {
+    padding-top: 30px;
+    font-size: 0.9em;
+  }
+
+  .icon-scroll {
+    visibility: hidden;
+  }
+}

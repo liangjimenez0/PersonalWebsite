@@ -1,0 +1,83 @@
+.work-items {
+  height: auto;
+  justify-content: center;
+  display: flex;
+  max-width: 100%;
+  transform-style: preserve-3d;
+}
+
+.w-layout-grid {
+  grid-row-gap: 30px;
+  grid-column-gap: 16px;
+  grid-auto-columns: 1fr 1fr;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  transform-style: preserve-3d;
+}
+
+.content-grid {
+  width: 90%;
+  height: auto;
+  perspective: 5000px;
+  flex: 0 auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 1fr;
+  justify-content: stretch;
+  margin-bottom: 80px;
+  transform: none;
+  transform-style: preserve-3d;
+}
+
+.content-grid > :nth-child(odd) {
+  grid-template-columns: 2fr 1fr;
+}
+
+.content-grid > :nth-child(even) {
+  grid-template-columns: 1fr 2fr;
+}
+
+.work-title {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 6%;
+  width: 88%;
+  justify-content: start;
+  display: flex;
+  font-family: "Salvatore Book";
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 2.3px;
+}
+
+.line {
+  width: 88%;
+  margin-left: 6%;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .content-grid {
+    width: 92%;
+    height: auto;
+    perspective: 5000px;
+    flex: 0 auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+    align-content: stretch;
+    justify-content: stretch;
+    align-items: center;
+    margin-bottom: 200px;
+    transform: none;
+  }
+
+  .work-title {
+    margin-left: 7%;
+  }
+
+  .line {
+    width: 88%;
+    margin-left: 7%;
+    margin-bottom: 30px;
+  }
+}

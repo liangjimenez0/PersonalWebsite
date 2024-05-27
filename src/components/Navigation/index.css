@@ -1,0 +1,86 @@
+:root {
+  --bg: #f2f2f2;
+}
+
+.link.active {
+  color: rgb(209 213 219);
+  transition: color 0.3s ease;
+}
+
+.link {
+  transition: color 0.3s ease;
+}
+
+/* Styles for desktop */
+@media ((min-width: 769px)) {
+  /* Liang Jimenez in top left corner */
+  .name {
+    font-family: "Nimbus Sans L";
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 50px;
+    font-size: 1.8em;
+    padding-left: 80px;
+    animation: 3s infinite alternate slidein;
+    color: #141414;
+  }
+
+  /* Work, Play, Blog, About in top right corner */
+  .navigation {
+    font-family: "Helvetica Now Micro";
+    font-weight: normal;
+    padding-top: 55px;
+    padding-right: 30px;
+    font-size: 0.9em;
+    color: #141414;
+  }
+
+  /* Each element in navigation */
+  .navigation .link {
+    padding: 18px;
+  }
+
+  .sun {
+    font-size: 1.3em;
+    padding-top: 50px;
+    padding-right: 80px;
+    margin-left: -10px;
+    margin-top: 5px;
+  }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+  /* Liang Jimenez in top left corner */
+  .name {
+    font-family: "Nimbus Sans L";
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 40px;
+    font-size: 1.8em;
+    padding-left: 26px;
+    animation: 3s infinite alternate slidein;
+  }
+
+  /* Work, Play, Blog, About in top right corner */
+  .navigation {
+    font-family: "Helvetica Now Micro";
+    font-weight: normal;
+    padding-top: 45px;
+    padding-right: 8px;
+    font-size: 0.9em;
+  }
+
+  /* Each element in navigation */
+  .navigation .link {
+    padding: 18px;
+  }
+
+  .sun {
+    font-size: 1.3em;
+    padding-top: 50px;
+    padding-right: 80px;
+    margin-left: -10px;
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,170 @@
+.about-heading {
+  font-family: "Salvatore Book";
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  margin: 12px;
+  color: #141414;
+}
+
+.about-body {
+  font-family: "Helvetica Now Micro";
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #141414;
+}
+
+.about-body p {
+  padding: 12px;
+  font-size: 0.9em;
+}
+
+.about-paragraph {
+  gap: 4rem;
+  max-width: 700px;
+}
+
+.chapter {
+  margin: 2em;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  margin: auto;
+}
+
+.section {
+  margin: 6em 0;
+}
+
+.journey-items {
+  font-family: "Helvetica Now Micro";
+  font-weight: normal;
+  font-size: 0.8em;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}
+
+.journey-items li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  align-items: center;
+  color: #141414;
+  margin: 0 1em;
+  margin-top: 17px;
+}
+
+.journey-items .journey-items-sentence {
+  margin: 0.3em 1.1em 3em;
+  font-size: 0.9em;
+  color: #717171;
+}
+
+.journey-items li .spacer-line {
+  height: 1px;
+  flex-grow: 1;
+  border-top: 1px dotted #dadada;
+}
+
+.journey-items-date {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.journey-items li .current-indicator {
+  height: 8px;
+  width: 8px;
+  border-radius: 100%;
+  background: #53d981;
+  margin: 0 0.4em 0 0;
+  animation: 2s flash infinite linear;
+}
+
+.now-title {
+  font-family: "Helvetica Now Micro";
+  font-weight: 500;
+  font-size: 0.8em;
+  color: #0f0f0f;
+  margin-bottom: 0.5rem;
+}
+
+.card.project {
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+.card.project .now-subtitle {
+  display: inline-block;
+  color: #0f0f0f;
+  border-bottom: 1px solid;
+  border-color: #dadada;
+  font-family: "Helvetica Now Micro";
+  font-size: 0.8em;
+}
+
+.muted {
+  color: #717171;
+  font-family: "Helvetica Now Micro";
+  font-weight: normal;
+  font-size: 0.75em;
+  margin-top: -0.5em;
+}
+
+span.badge.grey {
+  background: #fff;
+  border: 1px solid #dadada;
+  color: #717171;
+  position: relative;
+  top: -5px;
+  border-radius: 20px;
+  padding: 0.2em 0.6em;
+  font-size: 0.6em;
+  font-family: "Helvetica Now Micro";
+  font-weight: normal;
+}
+
+.now-link {
+  background: transparent;
+  display: block;
+  border: none;
+  position: relative;
+  transition: 0.3s ease;
+  padding-left: 1em;
+  margin-left: -1em;
+}
+
+.now-content {
+  margin-left: 1em;
+}
+
+/* Styles for desktop */
+@media ((min-width: 769px)) {
+  .now-link:hover {
+    width: 100%;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.03);
+  }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+  .about-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .section {
+    padding-left: 1rem;
+    padding-right: 3rem;
+  }
+
+  .now-content {
+    margin-left: 13px;
+  }
+}

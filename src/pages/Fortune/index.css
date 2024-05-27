@@ -1,0 +1,36 @@
+.fortune-problem {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.problem-button {
+  color: #141414;
+  font-family: "Salvatore Book";
+  border: 1px solid #141414;
+  padding: 10px 30px;
+  border-radius: 14px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.problem-description {
+  font-size: 0.9em;
+  color: #141414;
+  font-family: "Helvetica Now Micro";
+  font-weight: normal;
+  line-height: 1.7;
+}
+
+.problem-description p {
+  font-size: 0.9em;
+  padding-right: 60px;
+}
+
+@media (max-width: 1000px) {
+  .fortune-problem {
+    padding: 0px;
+  }
+}

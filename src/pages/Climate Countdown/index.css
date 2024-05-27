@@ -1,0 +1,182 @@
+.project-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.project-page-content {
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
+.header-image {
+  padding: 32px 0px 0px;
+  margin-bottom: 40px;
+}
+
+.header-image img {
+  border-radius: 20px;
+}
+
+.header-description {
+  gap: 50px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-description-title {
+  color: #141414;
+  font-family: "Salvatore Book";
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.header-description-subtitle {
+  font-family: "Helvetica Now Micro";
+  font-weight: normal;
+  width: 100%;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.right-hand-title {
+  color: #141414;
+  font-family: "Salvatore Book";
+  margin-bottom: 8px;
+}
+
+.right-hand-bullet {
+  font-family: "Helvetica Now Micro";
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+.header-right-hand {
+  width: 100%;
+}
+
+.header-right-hand .bullet {
+  margin-bottom: 50px;
+}
+
+.header-full-description {
+  border-top: 0.9px solid #141414;
+  color: #141414;
+  font-family: "Helvetica Now Micro";
+  font-weight: normal;
+  width: 100%;
+  font-size: 0.9em;
+  padding-top: 20px;
+  gap: 56px;
+  padding-bottom: 100px;
+  line-height: 1.7;
+}
+
+.header-full-description p {
+  margin-bottom: 20px;
+  font-size: 0.9em;
+}
+
+.project-page-learned {
+  padding: 0 20px;
+}
+
+.what-did-i-learn {
+  border: 1px solid #141414;
+  position: sticky;
+  top: 150px;
+  width: 350px;
+  gap: 20px;
+  padding: 16px;
+  border-radius: 14px;
+  color: #141414;
+  font-family: "Salvatore Book";
+  font-size: 1.2em;
+  height: min-content;
+  margin-bottom: 150px;
+}
+
+.search-icon {
+  font-size: 1.5em;
+}
+
+.learned-paragraphs {
+  gap: 150px;
+  width: 400px;
+}
+
+.project-page-gallery {
+  padding: 0 20px;
+}
+
+.preview-button {
+  color: #141414;
+  font-family: "Salvatore Book";
+  border: 1px solid #141414;
+  padding: 10px 16px;
+  border-radius: 14px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.gallery img,
+video {
+  border-radius: 14px;
+  border: 1px solid #141414;
+}
+
+@media (max-width: 1000px) {
+  .header-description {
+    flex-direction: column;
+    gap: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .header-left-hand {
+    gap: 10px;
+  }
+
+  .header-description-title {
+    margin-bottom: 0;
+  }
+
+  .project-page-content {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .header-full-description {
+    width: 100%;
+    flex-direction: column;
+    gap: 0px;
+    padding-bottom: 0;
+  }
+
+  .header-left-hand {
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+
+  .header-right-hand .bullet {
+    margin-bottom: 20px;
+  }
+
+  .project-page-gallery {
+    padding: 0px;
+  }
+
+  .preview-button {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .gallery {
+    gap: 15px;
+  }
+}
