@@ -12,16 +12,16 @@ import { Writing } from "./pages/Writing";
 import { Home } from "./pages/Home";
 import { Play } from "./pages/Play";
 import { About } from "./pages/About";
-import { Naviation } from "./components/Navigation";
+import { Navigation } from "./components/Navigation";
 import { Footer } from "./components/Footer";
-import { ClimateCountdown } from "./pages/Climate Countdown";
+import { ClimateCountdown } from "./pages/ClimateCountdown";
 import { Porkify } from "./pages/Porkify";
 import { Fortune } from "./pages/Fortune";
 
 function App() {
   return (
     <BrowserRouter>
-      <Naviation></Naviation>
+      <Navigation></Navigation>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/work" element={<Home />}></Route>
