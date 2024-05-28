@@ -6,7 +6,7 @@ import { FiSun } from "react-icons/fi";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export function Naviation() {
+export function Navigation() {
   AOS.init();
 
   const links = [
