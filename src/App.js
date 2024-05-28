@@ -33,8 +33,8 @@ function App() {
           path="/project/climate-countdown"
           element={<ClimateCountdown />}
         ></Route>
-        <Route path="/project/porkify" element={<Porkify />}></Route>
-        <Route path="/project/fortune" element={<Fortune />}></Route>
+        <Route path="/porkify" element={<Porkify />}></Route>
+        <Route path="/fortune" element={<Fortune />}></Route>
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
