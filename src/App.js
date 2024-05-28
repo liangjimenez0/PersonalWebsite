@@ -29,10 +29,7 @@ function App() {
         <Route path="/work" element={<Home />}></Route>
         <Route path="/play" element={<Play />}></Route>
         <Route path="/writing" element={<Writing />}></Route>
-        <Route
-          path="/project/climate-countdown"
-          element={<ClimateCountdown />}
-        ></Route>
+        <Route path="/climate-countdown" element={<ClimateCountdown />}></Route>
         <Route path="/porkify" element={<Porkify />}></Route>
         <Route path="/fortune" element={<Fortune />}></Route>
       </Routes>

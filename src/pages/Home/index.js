@@ -96,7 +96,7 @@ export function Home() {
           image={logoFortuneLarge}
           image2={logoFortuneMockUp}
           image3={logoFortuneRecommends}
-          link="/project/fortune"
+          link="/fortune"
         ></WorkItem>
         <WorkItem
           company="Ars Electronica"
@@ -107,7 +107,7 @@ export function Home() {
           Electronica"
           bullets="Overview • Creative Coding • Lighting"
           image={logoClimateLarge}
-          link="/project/climate-countdown"
+          link="/climate-countdown"
         ></WorkItem>
         <WorkItem
           company="CS 4500: Website Development"
@@ -118,7 +118,7 @@ export function Home() {
           enthusiasts"
           bullets="Overview • Full Stack Website • School Project"
           image={logoPorkifyLarge}
-          link="/project/porkify"
+          link="/porkify"
         ></WorkItem>
       </div>
     </div>
