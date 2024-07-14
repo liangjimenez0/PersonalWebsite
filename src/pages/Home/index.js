@@ -68,7 +68,9 @@ export function Home() {
 
             <div className="flex flex-row">
               <p className="currently-title">Previously</p>
-              <p className="currently-body">Product Intern at Fortune</p>
+              <p className="currently-body">
+                Product Management and UX Intern at Fortune Media
+              </p>
             </div>
 
             <div className="flex flex-row">
@@ -86,13 +88,11 @@ export function Home() {
 
       <div className="project-list">
         <WorkItem
-          company="Fortune"
+          company="Fortune Media"
           logo={logoFortune}
           title="Navigation Redesign"
-          description="Developed and proposed revamped navigation design ideas for
-          Fortune.com and Fortune.com/Recommends to enhance user experience,
-          SEO, and click-through rates"
-          bullets="Case Study • Product Management • UX Design"
+          description="Redesigned the website's navigation bar and hamburger menu in collaboration with UX and SEO teams, based on internal user testing and competitive analysis"
+          bullets="Internship • Product Management • UX Design"
           image={logoFortuneLarge}
           image2={logoFortuneMockUp}
           image3={logoFortuneRecommends}

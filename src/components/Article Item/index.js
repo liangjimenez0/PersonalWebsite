@@ -2,7 +2,7 @@ import "./index.css";
 
 export const ArticleItem = ({ title, description, date, time, href }) => {
   return (
-    <a className="article-link flex align-middle" href={href}>
+    <a className="article-link flex align-middle" href={href} target="_blank">
       <div className="article-item" data-aos="fade-up">
         <div className="article-item-info">
           <p className="muted m-0">{title}</p>

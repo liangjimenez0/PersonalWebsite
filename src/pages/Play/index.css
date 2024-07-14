@@ -1,0 +1,37 @@
+.play-page {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.play-page-content {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.play-description {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.play-description p {
+  font-family: "Helvetica Now Micro";
+  font-weight: normal;
+  font-size: 0.9em;
+  margin-bottom: 3em;
+  margin-top: 5em;
+}
+
+.play-content-item p {
+  font-family: "Helvetica Now Micro";
+  font-weight: normal;
+}
+
+.play-content-item img,
+.play-content-item video {
+  border-radius: 14px;
+  border: 1px solid #141414;
+  max-width: 100%;
+  height: auto;
+}

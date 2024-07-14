@@ -20,21 +20,26 @@ import { Fortune } from "./pages/Fortune";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navigation></Navigation>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/work" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/work" element={<Home />}></Route>
-        <Route path="/play" element={<Play />}></Route>
-        <Route path="/writing" element={<Writing />}></Route>
-        <Route path="/climate-countdown" element={<ClimateCountdown />}></Route>
-        <Route path="/porkify" element={<Porkify />}></Route>
-        <Route path="/fortune" element={<Fortune />}></Route>
-      </Routes>
-      <Footer></Footer>
-    </BrowserRouter>
+    <div className="website-container">
+      <BrowserRouter>
+        <Navigation></Navigation>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/work" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/work" element={<Home />}></Route>
+          <Route path="/play" element={<Play />}></Route>
+          <Route path="/writing" element={<Writing />}></Route>
+          <Route
+            path="/climate-countdown"
+            element={<ClimateCountdown />}
+          ></Route>
+          <Route path="/porkify" element={<Porkify />}></Route>
+          <Route path="/fortune" element={<Fortune />}></Route>
+        </Routes>
+        <Footer></Footer>
+      </BrowserRouter>
+    </div>
   );
 }
 

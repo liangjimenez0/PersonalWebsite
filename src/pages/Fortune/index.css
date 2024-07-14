@@ -1,6 +1,16 @@
-.fortune-problem {
-  padding-left: 20px;
-  padding-right: 20px;
+.fortune-header {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.padding-10 {
+  padding-left: calc(10rem + 20px);
+  padding-right: calc(10rem + 20px);
+}
+
+.project-page-content-fortune {
+  padding: 0px;
+  margin: 0px;
 }
 
 .problem-button {
@@ -16,7 +26,8 @@
   margin-bottom: 30px;
 }
 
-.problem-description {
+.problem-description,
+.problem-title {
   font-size: 0.9em;
   color: #141414;
   font-family: "Helvetica Now Micro";
@@ -25,12 +36,78 @@
 }
 
 .problem-description p {
+  padding-bottom: 0.9em;
+}
+
+.problem-title {
+  margin-bottom: 0.9em;
   font-size: 0.9em;
-  padding-right: 60px;
+}
+
+.section-header {
+  border-top: 1px solid #141414;
+  border-bottom: 1px solid #141414;
+  padding: 15px;
+  margin: 30px 0px 30px 0px;
+  font-family: "Helvetica Now Micro";
+  font-size: 0.9em;
+  color: #141414;
+  padding-left: calc(10rem + 20px);
+  padding-right: calc(10rem + 20px);
+}
+
+.site-map {
+  border-radius: 20px;
+  margin-top: 0.9em;
+  margin-bottom: 3rem;
+}
+
+.line {
+  border: 0.9px solid rgba(128, 128, 128, 0.283);
+}
+
+.font-09 {
+  font-size: 0.9em;
+}
+
+.before-and-after {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.what-i-learned {
+  gap: 59px;
+}
+
+.learned-paragraphs {
+  gap: 150px;
 }
 
 @media (max-width: 1000px) {
+  .fortune-header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .section-header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .padding-10 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .fortune-problem {
     padding: 0px;
+  }
+
+  .project-page-body {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .right-hand-conclusion {
+    flex-basis: 160%;
   }
 }

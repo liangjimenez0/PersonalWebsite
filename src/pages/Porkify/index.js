@@ -33,11 +33,8 @@ export function Porkify() {
               <div className="header-full-description-left basis-1/2">
                 <p>
                   As the culmination of our CS5610 Web Development course, we
-                  were tasked with{" "}
-                  <span className="font-bold">
-                    deploying individually crafted websites
-                  </span>
-                  , adhering to specific requirements and applying the acquired
+                  were tasked with deploying individually crafted websites ,
+                  adhering to specific requirements and applying the acquired
                   knowledge.
                 </p>
 
@@ -45,27 +42,22 @@ export function Porkify() {
                   Driven by our shared passions for music and film, my team
                   developed a dynamic full-stack platform inspired by the
                   popular film rating application, Letterboxd. Introducing
-                  "Porkify" – a unique twist on the concept, where{" "}
-                  <span className="font-bold">
-                    users can create accounts, rate their favorite music
-                    selections, and explore others' ratings and comments
-                  </span>
-                  . With a focus on the user experience, Porkify has a fully
-                  responsive design, ensuring accessibility across various
-                  devices, and gives users access to a vast library of music
-                  choices and their statistics through the Spotify API.
+                  "Porkify" – a unique twist on the concept, where users can
+                  create accounts, rate their favorite music selections, and
+                  explore others' ratings and comments . With a focus on the
+                  user experience, Porkify has a fully responsive design,
+                  ensuring accessibility across various devices, and gives users
+                  access to a vast library of music choices and their statistics
+                  through the Spotify API.
                 </p>
               </div>
               <div className="basis-1/2">
                 <p>
                   My involvement in this project focuses heavily on the{" "}
-                  <span className="font-bold">
-                    front-end development, where I helped to design and code the
-                    appearance of our website
-                  </span>
-                  . This project showcases our proficiency in web development,
-                  merging technical skills with creative vision to deliver a
-                  compelling user experience.
+                  front-end development, where I helped to design and code the
+                  appearance of our website . This project showcases our
+                  proficiency in web development, merging technical skills with
+                  creative vision to deliver a compelling user experience.
                 </p>
                 <p>
                   View the website{" "}

@@ -65,7 +65,7 @@ export function About() {
               </p>
 
               <li>
-                Fortune
+                Fortune Media
                 <div className="spacer-line"></div>
                 <div className="journey-items-date">2024</div>
               </li>

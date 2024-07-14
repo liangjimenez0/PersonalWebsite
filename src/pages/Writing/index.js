@@ -4,7 +4,7 @@ import { ArticleItem } from "../../components/Article Item";
 export function Writing() {
   return (
     <div className="container-about flex justify-center">
-      <div className="crop ">
+      <div>
         <div className="article-heading flex justify-center animate__animated animate__fadeIn">
           <p>
             In an effort to be more intentional about the things I learn and
@@ -13,13 +13,13 @@ export function Writing() {
           </p>
         </div>
         <div className="articles flex flex-col align-left animate__animated animate__fadeIn">
-          <ArticleItem
-            title="This website"
-            description="How but more importantly, why I built this website"
+          {/* <ArticleItem
+            title="6 months at Fortune"
+            description="My first experience as an intern in NYC"
             date="May 2, 2024"
             time="17 minutes"
-            href="/article/website"
-          ></ArticleItem>{" "}
+            href="https://liangjimenez.substack.com/"
+          ></ArticleItem>{" "} */}
         </div>
       </div>
     </div>

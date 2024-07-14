@@ -29,7 +29,7 @@ export function ClimateCountdown() {
               <span className="italic">Climate Countdown</span> at Ars
               Electronica
             </h1>
-            <p className="header-description-subtitle text-gray-500">
+            <p className=" text-gray-500">
               Designed and programmed a 5-minute LED light show inspired by our
               rapidly changing climate, projected on Ars Electronica
             </p>
@@ -59,10 +59,8 @@ export function ClimateCountdown() {
                   >
                     Kara Braciale,
                   </a>{" "}
-                  <span className="font-bold">
-                    blends coursework, global travel, and cultural immersion.
-                  </span>{" "}
-                  In the Creative Coding course, students dive into Processing,
+                  blends coursework, global travel, and cultural immersion. In
+                  the Creative Coding course, students dive into Processing,
                   crafting projects in computational textiles, algorithmic art,
                   and interactive media.
                 </p>
@@ -75,34 +73,27 @@ export function ClimateCountdown() {
                   >
                     Ars Electronica's FutureLab
                   </a>{" "}
-                  in Linz, Austria, my team of three{" "}
-                  <span className="font-bold">
-                    conceptualized and developed a 5-minute LED light show
-                  </span>
-                  . I worked closely with the researchers at FutureLab to
-                  understand the the intricacies of programming for the facade.
+                  in Linz, Austria, my team of three conceptualized and
+                  developed a 5-minute LED light show . I worked closely with
+                  the researchers at FutureLab to understand the the intricacies
+                  of programming for the facade.
                 </p>
               </div>
               <div className="basis-1/2">
                 <p>
                   Our creation, "Climate Countdown," serves as a visual
                   narrative inspired by the urgency of climate change. Through a{" "}
-                  <span className="font-bold">
-                    dynamic audiovisual experience showcasing extreme weather
-                    events
-                  </span>
-                  , we visually speed up the process of climate change,
+                  dynamic audiovisual experience showcasing extreme weather
+                  events , we visually speed up the process of climate change,
                   demonstrating its irrevsible effects. Our work is meant to{" "}
-                  <span className="font-bold">
-                    amplify the message of the{" "}
-                    <a
-                      href="https://climateclock.world/"
-                      target="_blank"
-                      className="underline"
-                    >
-                      Climate Clock Project
-                    </a>
-                  </span>{" "}
+                  amplify the message of the{" "}
+                  <a
+                    href="https://climateclock.world/"
+                    target="_blank"
+                    className="underline"
+                  >
+                    Climate Clock Project
+                  </a>
                   by activists Gan Golan, Andrew Boyd, artist Katie Payton
                   Hofstadter, and Adrian Carpenter.
                 </p>
@@ -195,14 +186,6 @@ export function ClimateCountdown() {
               height=""
             ></video>
             <img src={climate4} className="col-span-2"></img>
-            <video
-              src={climateVideoCode}
-              autoPlay="true"
-              muted="true"
-              loop="true"
-              height=""
-              className="col-span-2"
-            ></video>
           </div>
         </div>
       </div>

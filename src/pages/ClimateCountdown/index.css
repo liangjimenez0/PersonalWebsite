@@ -79,10 +79,6 @@
   font-size: 0.9em;
 }
 
-.project-page-learned {
-  padding: 0 20px;
-}
-
 .what-did-i-learn {
   border: 1px solid #141414;
   position: sticky;
@@ -104,7 +100,6 @@
 
 .learned-paragraphs {
   gap: 150px;
-  width: 400px;
 }
 
 .project-page-gallery {

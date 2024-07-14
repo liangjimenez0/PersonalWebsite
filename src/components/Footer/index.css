@@ -37,6 +37,7 @@
   width: 100%;
   margin-right: 6%;
   margin-top: 100px;
+  height: 100%;
 }
 
 .made-by p a {
@@ -59,8 +60,20 @@
 }
 
 @media (max-width: 768px) {
-  .left-hand-footer {
+  .footer {
+    display: flex;
+    flex-direction: column;
     padding: 30px;
+  }
+
+  .left-hand-footer {
+    padding-bottom: 28px;
+  }
+
+  .made-by {
+    margin: 0px;
+    margin-left: 6%;
+    align-items: start !important;
   }
 
   .footer-links {
@@ -68,10 +81,6 @@
     font-weight: normal;
     font-size: 0.9em;
     transition: color 0.3s ease;
-  }
-
-  .footer-links a {
-    padding: 7px;
   }
 
   .footer-links a span {

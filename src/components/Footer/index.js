@@ -5,7 +5,7 @@ import { IoMdCode } from "react-icons/io";
 
 export function Footer() {
   return (
-    <div className="footer flex bg-grey-800 flex-row w-full grow">
+    <div className="footer flex bg-grey-800 flex-row">
       <div className=" flex flex-col-reverse footer-links left-hand-footer w-2/4">
         <a
           href="https://www.linkedin.com/in/liang-jimenez"
@@ -34,6 +34,7 @@ export function Footer() {
           </span>
         </a>
       </div>
+
       <div className=" made-by flex flex-col">
         <p className="flex flex-row justify-end">
           Made with{" "}
@@ -45,7 +46,7 @@ export function Footer() {
           </a>{" "}
           by me
         </p>{" "}
-        <p className="flex justify-end last-updated">Last updated 4.2024</p>
+        <p className="flex justify-end last-updated">Last updated 7.2024</p>
       </div>
     </div>
   );
