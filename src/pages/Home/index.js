@@ -75,9 +75,7 @@ export function Home() {
 
             <div className="flex flex-row">
               <p className="currently-title ">Looking for</p>
-              <p className="currently-body">
-                UX Internship from Jan - June 2025
-              </p>
+              <p className="currently-body">Internship from Jan - June 2025</p>
             </div>
           </div>
         </div>

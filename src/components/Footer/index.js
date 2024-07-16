@@ -18,7 +18,7 @@ export function Footer() {
           </span>
         </a>
         <a
-          href="https://drive.google.com/file/d/1ZouzvwSLXKUU5ThoBVTI6Tqxy4XL56ty/view?usp=sharing"
+          href="https://drive.google.com/file/d/1AYo6-EesfegsWWVTDbm_J03rMuxszKcP/view?usp=sharing"
           target="_blank"
           className="flex flex-row"
         >
