@@ -17,8 +17,15 @@ import { Footer } from "./components/Footer";
 import { ClimateCountdown } from "./pages/ClimateCountdown";
 import { Porkify } from "./pages/Porkify";
 import { Fortune } from "./pages/Fortune";
+import ReactGA from "react-ga4";
 
 function App() {
+  ReactGA.initialize("G-03MGYN7MP6");
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   return (
     <div className="website-container">
       <BrowserRouter>
