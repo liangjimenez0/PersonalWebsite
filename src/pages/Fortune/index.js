@@ -507,7 +507,7 @@ export function Fortune() {
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             className="flex flex-row section-header gap-11 bg-gray-200"
             data-aos="fade-up"
           >
@@ -520,7 +520,7 @@ export function Fortune() {
                 intimdated by working at Fortune.
               </p>
             </div>
-          </div>
+          </div> */}
           {/* <div className="padding-10">
             <div className="flex flex-row mt-14 what-i-learned">
               <div className="what-did-i-learn flex flex-row">
