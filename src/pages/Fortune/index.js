@@ -507,13 +507,20 @@ export function Fortune() {
               </div>
             </div>
           </div>
-          {/* <div
-            className="flex justify-between section-header bg-gray-200"
+          <div
+            className="flex flex-row section-header gap-11 bg-gray-200"
             data-aos="fade-up"
           >
-            <p>04</p>
-            <p>REFLECTION</p>
-          </div> */}
+            <div>
+              <p>REFLECTIONS</p>
+            </div>
+            <div>
+              <p>
+                Having moved to New York City 3 days prior to starting, I felt
+                intimdated by working at Fortune.
+              </p>
+            </div>
+          </div>
           {/* <div className="padding-10">
             <div className="flex flex-row mt-14 what-i-learned">
               <div className="what-did-i-learn flex flex-row">
