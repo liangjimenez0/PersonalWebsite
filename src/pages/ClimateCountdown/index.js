@@ -29,7 +29,7 @@ export function ClimateCountdown() {
               <span className="italic">Climate Countdown</span> at Ars
               Electronica
             </h1>
-            <p className=" text-gray-500">
+            <p className="header-description-subtitle text-gray-500">
               Designed and programmed a 5-minute LED light show inspired by our
               rapidly changing climate, projected on Ars Electronica
             </p>
