@@ -13,6 +13,7 @@ export function Navigation() {
     { name: "Work", route: "work" },
     // { name: "Play", route: "play" },
     // { name: "Writing", route: "writing" },
+    // { name: "Wander", route: "wander" },
     { name: "About", route: "about" },
   ];
 

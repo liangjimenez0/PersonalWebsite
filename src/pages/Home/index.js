@@ -61,8 +61,8 @@ export function Home() {
             <div className="flex flex-row">
               <p className="currently-title">Currently</p>
               <p className="currently-body">
-                Undergraduate Student at Northeastern University studying
-                Computer Science and Cognition
+                Abroad in Madrid at IE University studying Computer Science and
+                Cognitive Psychology
               </p>
             </div>
 
@@ -75,7 +75,7 @@ export function Home() {
 
             <div className="flex flex-row">
               <p className="currently-title ">Looking for</p>
-              <p className="currently-body">Internship from Jan - June 2025</p>
+              <p className="currently-body">Internship from Sept - Dec 2025</p>
             </div>
           </div>
         </div>
@@ -107,7 +107,7 @@ export function Home() {
           image={logoClimateLarge}
           link="/climate-countdown"
         ></WorkItem>
-        <WorkItem
+        {/* <WorkItem
           company="CS 4500: Website Development"
           logo={logoPorkify}
           title="Porkify"
@@ -117,7 +117,7 @@ export function Home() {
           bullets="Overview • Full Stack Website • School Project"
           image={logoPorkifyLarge}
           link="/porkify"
-        ></WorkItem>
+        ></WorkItem> */}
       </div>
     </div>
   );

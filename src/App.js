@@ -18,6 +18,7 @@ import { ClimateCountdown } from "./pages/ClimateCountdown";
 import { Porkify } from "./pages/Porkify";
 import { Fortune } from "./pages/Fortune";
 import ReactGA from "react-ga4";
+import PostPage from "./pages/PostPage";
 
 function App() {
   ReactGA.initialize("G-03MGYN7MP6");
@@ -35,8 +36,9 @@ function App() {
           <Route path="/work" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/work" element={<Home />}></Route>
-          <Route path="/play" element={<Play />}></Route>
-          {/* <Route path="/writing" element={<Writing />}></Route> */}
+          {/* <Route path="/play" element={<Play />}></Route> */}
+          <Route path="/writing" element={<Writing />}></Route>
+          <Route path="/writing/:id" element={<PostPage />} />
           <Route
             path="/climate-countdown"
             element={<ClimateCountdown />}

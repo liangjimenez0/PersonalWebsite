@@ -110,7 +110,7 @@ export function Porkify() {
               <h1 className="right-hand-title">Team</h1>
               <div className="flex flex-col text-gray-500 right-hand-bullet">
                 <p>Aarohi Nadkarni</p>
-                <p>Steve Maglio</p>
+                <p>Steve Magliocchino</p>
                 <p>Max Leroux</p>
                 <p>Nikhil</p>
               </div>

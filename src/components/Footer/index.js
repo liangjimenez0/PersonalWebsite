@@ -5,7 +5,10 @@ import { IoMdCode } from "react-icons/io";
 
 export function Footer() {
   return (
-    <div className="footer flex bg-grey-800 flex-row">
+    <div
+      className="footer flex bg-grey-800 flex-row aos-init aos-animate animate__animated animate__fadeIn"
+      data-aos="fade-up"
+    >
       <div className=" flex flex-col-reverse footer-links left-hand-footer w-2/4">
         <a
           href="https://www.linkedin.com/in/liang-jimenez"
@@ -18,7 +21,7 @@ export function Footer() {
           </span>
         </a>
         <a
-          href="https://drive.google.com/file/d/1AYo6-EesfegsWWVTDbm_J03rMuxszKcP/view?usp=sharing"
+          href="https://drive.google.com/file/d/1XFS7T5tsqcR8bNUAQgL0-nZ7-Jz_8GnV/view?usp=sharing"
           target="_blank"
           className="flex flex-row"
         >
