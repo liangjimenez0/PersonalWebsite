@@ -107,7 +107,7 @@ export function Home() {
           image={logoClimateLarge}
           link="/climate-countdown"
         ></WorkItem>
-        {/* <WorkItem
+        <WorkItem
           company="CS 4500: Website Development"
           logo={logoPorkify}
           title="Porkify"
@@ -117,7 +117,7 @@ export function Home() {
           bullets="Overview • Full Stack Website • School Project"
           image={logoPorkifyLarge}
           link="/porkify"
-        ></WorkItem> */}
+        ></WorkItem>
       </div>
     </div>
   );
