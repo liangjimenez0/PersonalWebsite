@@ -33,7 +33,7 @@ export function Porkify() {
               <div className="header-full-description-left basis-1/2">
                 <p>
                   As the culmination of our CS5610 Web Development course, we
-                  were tasked with deploying individually crafted websites ,
+                  were tasked with deploying individually crafted websites,
                   adhering to specific requirements and applying the acquired
                   knowledge.
                 </p>
@@ -112,7 +112,7 @@ export function Porkify() {
                 <p>Aarohi Nadkarni</p>
                 <p>Steve Magliocchino</p>
                 <p>Max Leroux</p>
-                <p>Nikhil</p>
+                <p>Nikhil Goel</p>
               </div>
             </div>
             <div className="flex flex-col bullet">

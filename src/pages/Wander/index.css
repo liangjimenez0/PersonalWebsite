@@ -1,0 +1,9 @@
+.article-heading p {
+  width: 65%;
+}
+
+@media (max-width: 1000px) {
+  .article-heading p {
+    width: 100%;
+  }
+}

@@ -92,7 +92,7 @@ export function ClimateCountdown() {
                     target="_blank"
                     className="underline"
                   >
-                    Climate Clock Project
+                    Climate Clock Project{" "}
                   </a>
                   by activists Gan Golan, Andrew Boyd, artist Katie Payton
                   Hofstadter, and Adrian Carpenter.
@@ -168,13 +168,13 @@ export function ClimateCountdown() {
             <img src={climate2} className="col-span-2"></img>
             <img src={climate7}></img>
             <img src={climate10}></img>
-            <video
+            {/* <video
               src={climateVideo}
               autoPlay="true"
               className="col-span-2"
               muted="true"
               loop="true"
-            ></video>
+            ></video> */}
             <img src={climate3} className="col-span-2"></img>
             {/* <img src={climate8}></img> */}
             <img src={climate9}></img>

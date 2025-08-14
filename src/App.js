@@ -11,6 +11,7 @@ import {
 import { Writing } from "./pages/Writing";
 import { Home } from "./pages/Home";
 import { Play } from "./pages/Play";
+import { Wander } from "./pages/Wander";
 import { About } from "./pages/About";
 import { Navigation } from "./components/Navigation";
 import { Footer } from "./components/Footer";
@@ -38,6 +39,7 @@ function App() {
           <Route path="/work" element={<Home />}></Route>
           {/* <Route path="/play" element={<Play />}></Route> */}
           <Route path="/writing" element={<Writing />}></Route>
+          <Route path="/wander" element={<Wander />}></Route>
           <Route path="/writing/:id" element={<PostPage />} />
           <Route
             path="/climate-countdown"

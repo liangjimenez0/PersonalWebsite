@@ -53,29 +53,30 @@ export function Home() {
         <div className="introduction">
           <div>
             <p>
-              is a full stack UX designer interested in creating digital
-              experiences with beauty, precision, and intelligence
+              is a product manager interested in shaping digital experiences
+              with beauty, precision, and intelligence by aligning user needs,
+              business goals, and technology.
             </p>
           </div>
           <div className="flex-col text-grey flex currently">
             <div className="flex flex-row">
               <p className="currently-title">Currently</p>
               <p className="currently-body">
-                Abroad in Madrid at IE University studying Computer Science and
-                Cognitive Psychology
+                Experience Design (Customer Experience and Digital Empowerment)
+                Intern at Autodesk
               </p>
             </div>
 
             <div className="flex flex-row">
               <p className="currently-title">Previously</p>
-              <p className="currently-body">
-                Product Management and UX Intern at Fortune Media
-              </p>
+              <p className="currently-body">Product Co-op at Fortune Media</p>
             </div>
 
             <div className="flex flex-row">
               <p className="currently-title ">Looking for</p>
-              <p className="currently-body">Internship from Sept - Dec 2025</p>
+              <p className="currently-body">
+                New Grad Product Manager Roles for Spring 2026
+              </p>
             </div>
           </div>
         </div>
@@ -107,7 +108,7 @@ export function Home() {
           image={logoClimateLarge}
           link="/climate-countdown"
         ></WorkItem>
-        <WorkItem
+        {/* <WorkItem
           company="CS 4500: Website Development"
           logo={logoPorkify}
           title="Porkify"
@@ -117,7 +118,7 @@ export function Home() {
           bullets="Overview • Full Stack Website • School Project"
           image={logoPorkifyLarge}
           link="/porkify"
-        ></WorkItem>
+        ></WorkItem> */}
       </div>
     </div>
   );

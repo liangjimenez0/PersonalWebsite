@@ -15,8 +15,8 @@ export function About() {
             <div className="about-body">
               <p>
                 Hello, I'm Liang, a Dallas born ex-Texan and a 3rd-year Honors
-                student at Northeastern University studying Computer Science and
-                Cognitive Psychology.
+                student at Northeastern University studying Computer Science,
+                Cognitive Psychology, and Interaction Design.
               </p>
 
               <p>
@@ -26,20 +26,22 @@ export function About() {
                 and passions, I have spent my entire life using a technical
                 background to solve creative problems and vice versa. This
                 practice extends to <span className="italic">how</span> I
-                design.
+                approach product management.
               </p>
 
               <p>
-                I aim to design digital products, informed by the principles of
-                computer and cognitive science, to tell a story. In the
-                direction our technology-centered society is heading, I believe
-                that humanizing the user experience should be at its core.
+                I aim to lead the development of digital products, grounded in
+                computer science, cognitive science, and interaction design, to
+                create meaningful narratives. In the direction our
+                technology-centered society is heading, I believe that product
+                management must place humanizing the user experience at its
+                core.
               </p>
 
               <p>
                 Outside of work, I love to dance (to any music sent my way),
                 make music (with a piano, ukulele, or DJ controller), and eat
-                food (in Singapore, NYC, and Spain to say a few).
+                food (in Singapore, NYC, and Spain to note a few).
               </p>
             </div>
           </div>
@@ -52,7 +54,7 @@ export function About() {
             <p className="about-heading">Experience</p>
             <ul className="journey-items" data-aos="fade-up">
               <li>
-                Northeastern University
+                Autodesk
                 <div className="spacer-line"></div>
                 <div className="journey-items-date">
                   {" "}
@@ -61,7 +63,8 @@ export function About() {
                 </div>
               </li>
               <p className="journey-items-sentence">
-                3rd-Year Student in Computer Science and Cognition
+                Experience Design (Customer Experience and Digital Empowerment)
+                Intern
               </p>
 
               <li>
@@ -69,9 +72,7 @@ export function About() {
                 <div className="spacer-line"></div>
                 <div className="journey-items-date">2024</div>
               </li>
-              <p className="journey-items-sentence">
-                Product Management and UX Intern
-              </p>
+              <p className="journey-items-sentence">Product Co-op</p>
             </ul>
           </div>
         </div>
