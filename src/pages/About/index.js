@@ -56,11 +56,12 @@ export function About() {
               <li>
                 Autodesk
                 <div className="spacer-line"></div>
-                <div className="journey-items-date">
+                <div className="journey-items-date">2025</div>
+                {/* <div className="journey-items-date">
                   {" "}
                   <div class="current-indicator"></div>
                   Current
-                </div>
+                </div> */}
               </li>
               <p className="journey-items-sentence">
                 Experience Design (Customer Experience and Digital Empowerment)

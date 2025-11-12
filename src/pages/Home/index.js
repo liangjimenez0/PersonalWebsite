@@ -62,22 +62,25 @@ export function Home() {
             <div className="flex flex-row">
               <p className="currently-title">Currently</p>
               <p className="currently-body">
-                Experience Design (Customer Experience and Digital Empowerment)
-                Intern at Autodesk
+                Computer Science and Cognitive Psychology Student at
+                Northeastern University
               </p>
             </div>
 
             <div className="flex flex-row">
               <p className="currently-title">Previously</p>
-              <p className="currently-body">Product Co-op at Fortune Media</p>
+              <p className="currently-body">
+                Experience Design (Customer Experience and Digital Empowerment)
+                Intern at Autodesk
+              </p>
             </div>
-
+            {/* 
             <div className="flex flex-row">
               <p className="currently-title ">Looking for</p>
               <p className="currently-body">
                 New Grad Product Manager Roles for Spring 2026
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
